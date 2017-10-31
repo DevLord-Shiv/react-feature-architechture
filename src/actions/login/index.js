@@ -1,5 +1,5 @@
-import {userLogin} from '../../network/LoginApi';
-import * as actionTypes from './ActionTypes';
+import {userLogin} from '../../network/login';
+import * as actionTypes from '../../utils/constants';
 
 export function login(username , password){
   return function(dispatch, getState){

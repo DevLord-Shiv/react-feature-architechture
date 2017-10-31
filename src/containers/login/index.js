@@ -1,6 +1,6 @@
 import React, {Component, PropTypes} from 'react';
-import './index.scss';
-import {login} from './Actions';
+import '../../styles/login/index.scss';
+import {login} from '../../actions/login';
 import {connect} from 'react-redux';
 
 const mapDispatchToProps = (dispatch) => {

@@ -1,4 +1,4 @@
-import * as actionTypes from './ActionTypes';
+import * as actionTypes from '../../utils/constants';
 
 
 export default function  loginReducer(state = {} , action){
